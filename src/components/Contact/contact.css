@@ -1,0 +1,234 @@
+.contact_page{
+    /* background-color:blueviolet ; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/public/images/Gulamarg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* .circle{
+    background-color: rgb(213, 226, 200);
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    left: 30%;
+    bottom: -120vh;
+    border-radius: 50%;
+} */
+.main{
+    background-color: azure;
+    width: 70vw;
+    height: 75vh;
+    position: relative;
+    left: 17%;
+    top: 20%;
+    border-radius: 18px;
+    display: flex;
+    /* margin-left:20%;
+    margin-top: 4rem; */
+}
+.left_portion{
+    background-color: #011C2B;
+    width: 30vw;
+    height: 70vh;
+    position: relative;
+    border-radius: 15px;
+    left: 10px;
+    top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+}
+.left_top{
+       margin-left: 2rem;
+      margin-top: 2vh;
+       /* background-color: red; */
+    height: 10vh;
+    width: 20vw;
+    line-height: 5vh;
+}
+.contact_info{
+    color: #FFF;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.say{
+    color: #FFF;
+
+}
+.phone{
+    /* background-color: yellow; */
+    width: 20vw;
+    height: 27vh;
+    margin-top: 9vh;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.call{
+    /* background-color: aqua; */
+    width: 10vw;
+    height: 4vh;
+    color: #FFF;
+}
+
+.ri-mail-fill{
+    color: #FFF;
+    margin-top: 4px;
+  }
+  .mail_icon{
+      display: flex;
+  }
+.mail{
+    /* background-color: rgb(255, 0, 128); */
+    width: 10vw;
+    height: 4vh;
+    display: block;
+    color: #FFF;
+}
+.ri-mail-fill{
+  color: #FFF;
+  margin-top: 4px;
+}
+.mail_icon{
+    display: flex;
+}
+.location{
+    /* background-color: rgb(255, 0, 0); */
+    width: 10vw;
+    height: 4vh;
+    color: #FFF;
+}
+.ri-map-pin-fill{
+    color: #FFF;
+    margin-top: 4px;
+}
+.buttons{
+/* background-color: springgreen; */
+width: 10vw;
+height: 5vh;
+margin-top: 9vh;
+margin-left: 2rem;
+display: flex;
+justify-content: space-evenly;
+}
+#face{
+    margin-top: 3px;
+    cursor: pointer;
+}
+#insta{
+    margin-top: 3px;
+    cursor: pointer;
+
+}
+#link{
+    margin-top: 3px;
+    cursor: pointer;
+}
+.facebook{
+    background-color: #011C2B;
+    cursor: pointer;
+    border-style: none;
+}
+.instagram{
+    background-color: #011C2B;
+    cursor: pointer;
+    border-style: none;
+
+}
+.linkedin_2{
+    background-color: #011C2B;
+    cursor: pointer;
+    border-style: none;
+
+}
+.ri-facebook-circle-fill{
+  color: #360ee9;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.ri-instagram-line{
+    color: #360ee9;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.ri-linkedin-box-fill{
+    color: #360ee9;
+    font-size: 24px;
+    font-weight: bolder;   
+}
+.insta{
+    cursor: pointer;
+}
+.gau_insta{
+   background-color: aquamarine;
+    transition: 3s;
+}
+.right_portion{
+    /* background-color: slateblue; */
+    position: relative;
+    left: 2rem;
+    top:2.5vh;
+    width: 35vw;
+    height: 70vh;
+}
+#info{
+    display: flex;
+}
+
+.name{
+    /* background-color: tomato; */
+    width: 20vw;
+    height: 66vh;
+    position: absolute;
+    left: 2rem;
+    top: 2vh;
+}
+#fname{
+    text-align: center;
+    height: 20px;
+    margin-top: 2vh;
+    margin-left: 2rem;
+}
+#lname{
+    text-align: center;
+    height: 20px;
+    margin-top: 4vh;
+    margin-left: 2rem;
+
+}
+#phone_number{
+    text-align: center;
+    height: 20px;
+    margin-top: 4vh;
+    margin-left: 2rem;
+}
+#email_id{
+    text-align: center;
+    height: 20px;
+    margin-top: 4.5vh;
+    margin-left: 2rem;
+}
+.bottom_right{
+    width: 12vw;
+    height: 5.9vh;
+    background-color: #090320;
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    cursor: pointer;
+    text-align: center;
+    color: #FFF;
+    text-transform: capitalize;
+}
+.bottom_right:hover{
+    background-color: #751212;
+    
+    transition: .3s;
+}
+/* #send_message{
+    color: #FFF;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+} */

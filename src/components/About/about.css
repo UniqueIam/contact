@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.first_page{
+   background-color:#0f154d;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
+.top{
+    /* background-color: rgb(192, 172, 211); */
+    height: 10vh;
+    width: 20vw;
+    margin-left: 38%;
+}
+.home{
+  color: #FFF;
+  margin-left: 50vw;
+  margin-top: -2vw;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/* .home :hover{
+  color: aqua;
+  transition: 3ms;
+} */
+.top>h1{
+    font-size:40px;
+font-style: normal;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 2.175px;
+line-height: 62.2px;
+background: var(--gradient3, linear-gradient(90deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%));
+/* background-clip: text; */
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Clash Display;
+}
+.content{
+    /* background-color: brown; */
+    margin-top: 1vh;
+    height: 78vh;
+    width: 95vw;
+    margin-left: 1rem;
+    display: grid;
+ 
+   grid-template-rows: repeat(2,3fr);
+   grid-template-columns: repeat(3,3fr);
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
+}
+
+
+.image_one{
+    height: 180px;
+    width: 130px;
+    /* background-color: #555; */
+    border-radius: 50%;
+  }
+  .image_two{
+    height: 180px;
+    width: 150px;
+    /* background-color: yellow; */
+  }
+  #gaurav{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius:80%;
+    margin-left:5rem;
+  }
+  .text_one{
+   
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight:bolder ;
+    /* padding: 1rem; */
+    margin-left: -2.4rem;
+    padding-top: 2rem;
+    color: #FFF;
+  }
+  #home :hover{
+    transition: .1s;
+    color: #69EACB;
+    /* background-color:peachpuff; */
+  }
+  #gau_link{
+    background-color:black;
+    width: 10vw;
+    height: 5vh;
+  }
+  #abhimanyu{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius:80%;
+    margin-left:5rem;
+  }
+  .text_two{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight:bolder ;
+    /* padding: 1rem; */
+    margin-left: -2.4rem;
+    padding-top: 2rem;
+    color: #FFF;
+  }
+
+  #rudransh{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius:80%;
+    margin-left:5rem;
+  }
+  .text_three{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight:bolder ;
+    /* padding: 1rem; */
+    margin-left: -2.4rem;
+    padding-top: 1rem;
+    color: #FFF;
+  }
+
+  #sriya{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius:80%;
+    margin-left:5rem;
+  }
+  .text_four{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight:bolder ;
+    /* padding: 1rem; */
+    margin-left: -2.4rem;
+    padding-top: -2rem;
+    color: #FFF;
+    
+  }
+  #payal{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius:80%;
+    margin-left:5rem;
+  }
+  .text_five{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight:bolder ;
+    /* padding: 1rem; */
+    margin-left: -2.4rem;
+    padding-top: -3rem;
+    color: #FFF;
+    
+  }
+
+  #sai{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius:80%;
+    margin-left:5rem;
+  }
+  .text_six{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight:bolder ;
+    /* padding: 1rem; */
+    margin-left: -2.4rem;
+    /* padding-top: 1rem; */
+    color: #FFF;
+  }
+  #link  :hover{
+   color: rgb(52, 196, 201);
+   transition: .3s;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .footer{
+    /* background-color: springgreen; */
+    width: 30vw;
+    height: 5vh;
+    margin-left: 27rem;
+    margin-top: 1rem;
+    display: flex;
+  }
+  .foot{
+    font-size: 20px;
+    text-align: center;
+    color: #ac0d57;
+    margin-left: 5rem;
+  }
+ 
+.linkedin{
+  margin-left:0.5rem;
+  background-color: #FFF;
+  border-style: none;
+  border-radius: 30%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+
+}
+i{
+  color: #0f154d;
+  font-size: 18px;
+  font-weight: bolder;
+  
+}
